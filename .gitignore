@@ -18,6 +18,7 @@
 /project/www/errors.log
 /project/www/error_log
 /project/www/src/error_log
+/project/www/src/class/pctrpath
 /project/www/admin/error_log
 /project/www/src/test/
 /project/www/src/transfere/
@@ -26,4 +27,5 @@
 /project/www/robots.txt
 /project/www/config.php
 /project/www/config/config.php
+/project/www/src/config/config.ini
 /data/config/config_def.ini

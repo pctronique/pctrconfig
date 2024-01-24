@@ -7,8 +7,7 @@
 if (!class_exists('ConfigIni')) {
 
     /* en cas d'erreur sur la classe */
-    include_once __DIR__ . '/Error_Log.php';
-    include_once __DIR__ . '/PathPhp.php';
+    include_once __DIR__ . '/../pctrpath/PathPhp.php';
 
     /* recuperer l'emplacement du fichier de configuration */
     if (!defined('RACINE_CONFIG_INI') && file_exists(__DIR__ . '/../config/config.php')) {
@@ -33,13 +32,6 @@ if (!class_exists('ConfigIni')) {
         protected array|null $arrayIni;
 
         /**
-         * la classe pour le fichier d'erreur
-         *
-         * @var Error_Log la classe pour le fichier d'erreur
-         */
-         protected Error_Log|null $errorFile;
-
-        /**
          * recuperer le numero d'erreur d'erreur
          *
          * @var int le numero d'erreur d'erreur
@@ -56,10 +48,9 @@ if (!class_exists('ConfigIni')) {
         public function __construct(string|null $file_config = null) {
             $this->nmError = 0;
             $this->is_error = false;
-            $this->errorFile = new Error_Log();
             if(empty($file_config)) {
                 // recuperer le fichier de configuration
-                $file_config = PathPhp::path(RACINE_CONFIG_INI, "config_def.ini");
+                $file_config = PathPhp::path(RACINE_CONFIG_INI, "config.ini");
             } else {
                 $file_config = PathPhp::path(__DIR__, $file_config);
             }
@@ -71,21 +62,16 @@ if (!class_exists('ConfigIni')) {
                 try {
                     throw new Exception("Le fichier de configuration n'a pas ete trouve.\n");
                 } catch (Exception $e) {
+                    throw new Error($e, 1001000000);
                     $this->is_error = true;
-                    $this->arrayIni = array();
-                    $this->nmError = 1001000000;
                     $error_message = $e;
-                    $this->errorFile->addError($error_message, $this->nmError, $file_config);
                 }
             } else {
                 try {
                     $this->arrayIni = parse_ini_file($file_config, true);
                 } catch (Exception $e) {
+                    throw new Error($e, 1001000001);
                     $this->is_error = true;
-                    $this->arrayIni = array();
-                    $this->nmError = 1001000001;
-                    $error_message = $e;
-                    $this->errorFile->addError($error_message, $this->nmError, $file_config);
                 }
             }
 

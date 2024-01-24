@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    welcome
+    <?php 
+    include __DIR__ . "/src/class/pctrconfig/ConfigIni.php";
+    $test = new ConfigIni();
+    var_dump($test); ?>
 </body>
 </html>
