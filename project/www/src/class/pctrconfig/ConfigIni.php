@@ -7,7 +7,7 @@
 if (!class_exists('ConfigIni')) {
 
     /* en cas d'erreur sur la classe */
-    include_once __DIR__ . '/../pctrpath/PathPhp.php';
+    include_once __DIR__ . '/../pctrpath/Path.php';
 
     /* recuperer l'emplacement du fichier de configuration */
     if (!defined('RACINE_CONFIG_INI') && file_exists(__DIR__ . '/../config/config.php')) {
@@ -50,9 +50,11 @@ if (!class_exists('ConfigIni')) {
             $this->is_error = false;
             if(empty($file_config)) {
                 // recuperer le fichier de configuration
-                $file_config = PathPhp::path(RACINE_CONFIG_INI, "config.ini");
+                $path = new Path(RACINE_CONFIG_INI, "config.ini");
+                $file_config = $path->getAbsolutePath();
             } else {
-                $file_config = PathPhp::path(__DIR__, $file_config);
+                $path = new Path(__DIR__, $file_config);
+                $file_config = $path->getAbsolutePath();
             }
             if(!file_exists($file_config)) {
                 $file_config .= ".example";
@@ -75,6 +77,23 @@ if (!class_exists('ConfigIni')) {
                 }
             }
 
+        }
+
+        protected function value(string|null $key, string|null $section):string|null {
+            if(!empty($this->arrayIni) && !(empty($key) && empty($section))) {
+                if(!empty($section)) {
+                    if (array_key_exists($section, $this->arrayIni)) {
+                        if (array_key_exists($key, $this->arrayIni[$section])) {
+                            return $this->arrayIni[$section][$key];
+                        }
+                    }
+                } else  {
+                    if (array_key_exists($key, $this->arrayIni)) {
+                        return $this->arrayIni[$key];
+                    }
+                }
+            }
+            return "";
         }
 
         /**
