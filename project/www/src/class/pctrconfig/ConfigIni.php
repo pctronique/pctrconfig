@@ -31,23 +31,12 @@ if (!class_exists('ConfigIni')) {
          */
         protected array|null $arrayIni;
 
-        /**
-         * recuperer le numero d'erreur d'erreur
-         *
-         * @var int le numero d'erreur d'erreur
-         */
-        protected int $nmError;
-
-        protected bool $is_error;
-
 
 
         /**
          * le constructeur par defaut
          */
         public function __construct(string|null $file_config = null) {
-            $this->nmError = 0;
-            $this->is_error = false;
             if(empty($file_config)) {
                 // recuperer le fichier de configuration
                 $path = new Path(RACINE_CONFIG_INI, "config.ini");
@@ -65,15 +54,12 @@ if (!class_exists('ConfigIni')) {
                     throw new Exception("Le fichier de configuration n'a pas ete trouve.\n");
                 } catch (Exception $e) {
                     throw new Error($e, 1001000000);
-                    $this->is_error = true;
-                    $error_message = $e;
                 }
             } else {
                 try {
                     $this->arrayIni = parse_ini_file($file_config, true);
                 } catch (Exception $e) {
                     throw new Error($e, 1001000001);
-                    $this->is_error = true;
                 }
             }
 
@@ -103,19 +89,7 @@ if (!class_exists('ConfigIni')) {
             return RACINE_CONFIG_INI;
         }
 
-        /**
-         * Recuperer le numero d'erreur.
-         */
-        public function getNumError():int {
-            return $this->nmError;
-        }
-
-        /**
-         * Verifier s'il y a eu une erreur.
-         */
-        public function isError(): bool {
-            return $this->is_error;
-        }
     }
+    
 
 }
