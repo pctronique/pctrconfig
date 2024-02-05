@@ -7,7 +7,7 @@
 if (!class_exists('ConfigIni')) {
 
     /* en cas d'erreur sur la classe */
-    include_once __DIR__ . '/../pctrpath/Path.php';
+    include_once __DIR__ . '/../pctrouting/Path.php';
 
     /* recuperer l'emplacement du fichier de configuration */
     if (!defined('RACINE_CONFIG_INI') && file_exists(__DIR__ . '/../config/config.php')) {

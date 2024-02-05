@@ -1,3 +1,5 @@
+#require
+./require.sh
 # creation des dossiers pour le site
 mkdir -p project/cron
 mkdir -p project/install
