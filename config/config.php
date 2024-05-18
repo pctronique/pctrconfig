@@ -1,5 +1,5 @@
-<?php
-
-define("RACINE_CONFIG_INI", __DIR__."/");
-define("ERROR_LOG", __DIR__."/../../errors.log");
-define("ERROR_SERV_LOG", [__DIR__."/..", __DIR__."/../../cron"]);
+<?php 
+define("RACINE", "http://localhost/");
+define("DATA_PATH", dirname(__FILE__)."/../../../projecttmp/data/");
+define("DATA_WEB", RACINE."data/");
+?>
