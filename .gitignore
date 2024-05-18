@@ -17,6 +17,7 @@
 /project/www/src/config/config_sgbd.php
 /project/www/src/config/filedotenv.php
 /project/www/src/config/.env
+/project/www/src/class/pctrouting/
 /project/www/errors.log
 /project/www/.htaccess
 /project/www/upload
