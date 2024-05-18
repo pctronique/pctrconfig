@@ -123,6 +123,7 @@ RUN chmod +x ${PHP_FOLDER_INIT}/importdata.sh
 
 COPY depends.sh ${PHP_FOLDER_INIT}
 RUN chmod +x ${PHP_FOLDER_INIT}/depends.sh
+RUN ${PHP_FOLDER_INIT}/depends.sh
 
 COPY docker-data-entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/docker-data-entrypoint.sh
