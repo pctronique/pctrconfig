@@ -41,6 +41,7 @@ services:
             - ./config/config_sgbd.php:/usr/local/apache2/www/${FOLDER_CONFIG}/config_sgbd.php:rw
             - ./config/filedotenv.php:/usr/local/apache2/www/${FOLDER_CONFIG}/filedotenv.php:rw
             - ./config/config.php:/usr/local/apache2/www/${FOLDER_CONFIG}/config.php:rw
+            - ./config/config.ini:/usr/local/apache2/www/${FOLDER_CONFIG}/config.ini:rw
             - ./config/data:/docker-entrypoint-initdata.d:rw
             - ./config/dockercron:/var/docker/cron/dockercron:rw
             - ./config/config_cron_path.php:/usr/local/apache2/cron/config_path.php:rw

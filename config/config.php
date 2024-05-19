@@ -1,5 +1,4 @@
 <?php 
 define("RACINE", "http://localhost/");
-define("DATA_PATH", dirname(__FILE__)."/../../../projecttmp/data/");
-define("DATA_WEB", RACINE."data/");
-?>
+define("RACINE_CONFIG_INI", __DIR__);
+
