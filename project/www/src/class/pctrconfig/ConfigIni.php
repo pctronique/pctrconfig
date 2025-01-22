@@ -18,6 +18,8 @@ if (!class_exists('ConfigIni')) {
 
     /**
      * Creation de la class pour la lecture du fichier ini avec les configurations
+     * @version 1.1.0
+     * @author pctronique (NAULOT ludovic)
      */
     class ConfigIni {
 
@@ -35,6 +37,9 @@ if (!class_exists('ConfigIni')) {
 
         /**
          * le constructeur par defaut
+         * @param string|null $file_config
+         * @throws \Exception
+         * @throws \Error
          */
         public function __construct(string|null $file_config = null) {
             if(empty($file_config)) {
@@ -65,6 +70,12 @@ if (!class_exists('ConfigIni')) {
 
         }
 
+        /**
+         * Summary of value
+         * @param string|null $key
+         * @param string|null $section
+         * @return string|null
+         */
         protected function value(string|null $key, string|null $section):string|null {
             if(!empty($this->arrayIni) && !(empty($key) && empty($section))) {
                 if(!empty($section)) {
@@ -84,6 +95,7 @@ if (!class_exists('ConfigIni')) {
 
         /**
          * Recuperer le dossier parent.
+         * @return string|null
          */
         public function pathParent():string|null {
             return RACINE_CONFIG_INI;
