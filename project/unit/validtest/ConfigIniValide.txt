@@ -1,0 +1,6 @@
+------------------------------
+
+-- VALIDATED : ConfigIni
+------------------------------
+Valeur valide : 
+Valeur valide : 0

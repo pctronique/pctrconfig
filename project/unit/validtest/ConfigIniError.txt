@@ -1,0 +1,1791 @@
+------------------------------
+
+-- ERROR : ConfigIni
+------------------------------
+Problème :  [tintin] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [####] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [////] Cannot assign false to property ConfigIni::$arrayIni of type ?array
+Problème :  [/opt/titi] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [Pc*#014HgIl*#78] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [0125] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [01.25] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [01,25] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [A15F] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [1] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [2] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local/projecttmp/tmp/php] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/] Cannot assign false to property ConfigIni::$arrayIni of type ?array
+Problème :  [/opt/tmp] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [message_1] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [[%s]] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [cd /] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ls] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [export Home=tintin] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [cd /usr/local/apache2/www] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [export Home=/usr/local/apache2/www] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [cd ] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [cd Home] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [cd $Home] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [cd /usr/local/******/htdocs] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [cd /usr/local/apa.che2/ht.docs/tmp] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [cd /opt/tmp] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local/src/] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local/apache2/www2/] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local/projecttmp/tmp/php/test1] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local////apache2/www/tmp/test1] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [./tmp/test1] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local/projecttmp/tmp/php/test1/../../../] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local/projecttmp/tmp/php/test1/../../../tmp//kml/] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local/projecttmp/tmp/php/test1/../../..] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [linux] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local/apache2/unit/../www//favicon.ico] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local/apache2/unit/../www//example/test.html] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local/apache2/unit/../www//example/message.ini] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [/usr/local/apache2/unit/../www//example/messages.json] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [test@test.fr] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [test1@test.fr] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [BASE64] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UUENCODE] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [HTML-ENTITIES] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [Quoted-Printable] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [7bit] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [8bit] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UCS-4] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UCS-4BE] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UCS-4LE] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UCS-2] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UCS-2BE] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UCS-2LE] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-32] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-32BE] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-32LE] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-16] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-16BE] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-16LE] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-8] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-7] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF7-IMAP] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ASCII] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [EUC-JP] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [SJIS] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [eucJP-win] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [EUC-JP-2004] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [SJIS-Mobile#DOCOMO] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [SJIS-Mobile#KDDI] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [SJIS-Mobile#SOFTBANK] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [SJIS-mac] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [SJIS-2004] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-8-Mobile#DOCOMO] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-8-Mobile#KDDI-A] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-8-Mobile#KDDI-B] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UTF-8-Mobile#SOFTBANK] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [CP932] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [SJIS-win] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [CP51932] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [JIS] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-2022-JP] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-2022-JP-MS] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [GB18030] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [GB18030-2022] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [Windows-1252] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [Windows-1254] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-1] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-2] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-3] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-4] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-5] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-6] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-7] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-8] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-9] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-10] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-13] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-14] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-15] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-8859-16] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [EUC-CN] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [CP936] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [HZ] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [EUC-TW] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [BIG-5] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [CP950] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [EUC-KR] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [UHC] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-2022-KR] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [Windows-1251] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [CP866] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [KOI8-R] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [KOI8-U] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ArmSCII-8] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [CP850] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-2022-JP-2004] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [ISO-2022-JP-MOBILE#KDDI] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [CP50220] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [CP50221] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
+Problème :  [CP50222] Exception: Le fichier de configuration n'a pas ete trouve.
+ in /usr/local/apache2/www/src/class/pctrconfig/ConfigIni.php:54
+Stack trace:
+#0 /usr/local/apache2/unit/class/pctrconfig/ConfigIniTest.php(58): ConfigIni->__construct('/usr/local/apac...')
+#1 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2315): ConfigIniTest->setUp()
+#2 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(2238): PHPUnit\Framework\TestCase->invokeHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter), 'testBeforeTestM...', 'testBeforeTestM...')
+#3 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(474): PHPUnit\Framework\TestCase->invokeBeforeTestHookMethods(Array, Object(PHPUnit\Event\DispatchingEmitter))
+#4 /tmp/vendor/phpunit/phpunit/src/Framework/TestRunner.php(98): PHPUnit\Framework\TestCase->runBare()
+#5 /tmp/vendor/phpunit/phpunit/src/Framework/TestCase.php(337): PHPUnit\Framework\TestRunner->run(Object(ConfigIniTest))
+#6 /tmp/vendor/phpunit/phpunit/src/Framework/TestSuite.php(369): PHPUnit\Framework\TestCase->run()
+#7 /tmp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(62): PHPUnit\Framework\TestSuite->run()
+#8 /tmp/vendor/phpunit/phpunit/src/TextUI/Application.php(200): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\TextUI\Configuration\Configuration), Object(PHPUnit\Runner\ResultCache\DefaultResultCache), Object(PHPUnit\Framework\TestSuite))
+#9 /tmp/vendor/phpunit/phpunit/phpunit(104): PHPUnit\TextUI\Application->run(Array)
+#10 /tmp/vendor/bin/phpunit(122): include('/tmp/vendor/php...')
+#11 {main}
