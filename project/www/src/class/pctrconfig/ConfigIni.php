@@ -1,9 +1,5 @@
 <?php
-/**
- * Pour lire le fichier avec les configurations du site.
- * numero d'error de la classe '1001XXXXXX'
- */
-
+// verifier qu'on n'a pas deja creer la classe
 if (!class_exists('ConfigIni')) {
 
     /* en cas d'erreur sur la classe */
@@ -18,14 +14,12 @@ if (!class_exists('ConfigIni')) {
 
     /**
      * Creation de la class pour la lecture du fichier ini avec les configurations
+     * (Numéro d'error de la classe '1001XXXXXX')
      * @version 1.1.0
      * @author pctronique (NAULOT ludovic)
      */
     class ConfigIni {
 
-        /*
-            les variables de la classe
-        */
         /**
          * Le contenu du fichier ini
          *
@@ -36,8 +30,9 @@ if (!class_exists('ConfigIni')) {
 
 
         /**
-         * le constructeur par defaut
-         * @param string|null $file_config
+         * le constructeur par reference
+         * 
+         * @param string|null $file_config le fichier de configuration
          * @throws \Exception
          * @throws \Error
          */
@@ -71,10 +66,11 @@ if (!class_exists('ConfigIni')) {
         }
 
         /**
-         * Summary of value
-         * @param string|null $key
-         * @param string|null $section
-         * @return string|null
+         * Recuperer une valeur a partir d'une clef et d'une section.
+         * 
+         * @param string|null $key la clef
+         * @param string|null $section la section
+         * @return string|null la valeur
          */
         protected function value(string|null $key, string|null $section):string|null {
             if(!empty($this->arrayIni) && !(empty($key) && empty($section))) {
@@ -94,8 +90,9 @@ if (!class_exists('ConfigIni')) {
         }
 
         /**
-         * Recuperer le dossier parent.
-         * @return string|null
+         * Recuperer le chemin du dossier parent.
+         * 
+         * @return string|null le chemin du dossier parent
          */
         public function pathParent():string|null {
             return RACINE_CONFIG_INI;

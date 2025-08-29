@@ -37,9 +37,6 @@ ENV PHP_UNIT_VERSION=${PHP_UNIT_VERSION:-'phpunit/phpunit'}
 ARG VALUE_MHSEND_VERSION
 ENV DEF_MHSEND_VERSION=${VALUE_MHSEND_VERSION:-"v0.2.0"}
 
-ARG VALUE_PCTR_ROUT_VERSION
-ENV VALUE_PCTR_ROUT_VERSION=${VALUE_PCTR_ROUT_VERSION:-"latest"}
-
 ARG PHP_FOLDER_PROJECT
 ENV PHP_FOLDER_PROJECT=${PHP_FOLDER_PROJECT:-"/usr/local/apache2/www/"}
 ENV PHP_FOLDER_LOG="/var/log/docker/php/"
@@ -80,13 +77,16 @@ RUN apt-get install -y libmcrypt-dev
 RUN apt-get install -y libyaml-dev
 RUN apt-get install -y libc-client-dev
 RUN apt-get install -y libkrb5-dev
+RUN apt-get install -y libbz2-dev
 #del list
 RUN rm -rf /var/lib/apt/lists/*
 
 RUN docker-php-ext-configure intl
 RUN docker-php-ext-configure gd --with-jpeg
-RUN docker-php-ext-configure imap --with-kerberos --with-imap-ssl
-RUN docker-php-ext-install -j7 gd mysqli pdo_mysql xsl zip intl imap
+#RUN docker-php-ext-configure imap --with-kerberos --with-imap-ssl
+#RUN docker-php-ext-install -j7 gd mysqli pdo_mysql xsl zip intl imap
+RUN docker-php-ext-install -j7 gd mysqli pdo_mysql xsl zip intl
+RUN docker-php-ext-install bz2
    
 #install mhsendmail
 RUN go install github.com/mailhog/mhsendmail@${DEF_MHSEND_VERSION}
@@ -128,11 +128,20 @@ RUN ${PHP_FOLDER_INIT}/xdebug_extends.sh
 COPY importdata.sh ${PHP_FOLDER_INIT}
 RUN chmod +x ${PHP_FOLDER_INIT}/importdata.sh
 
-COPY depends.sh ${PHP_FOLDER_INIT}
-RUN chmod +x ${PHP_FOLDER_INIT}/depends.sh
-
 COPY docker-data-entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/docker-data-entrypoint.sh
+
+COPY filereadini.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/filereadini.sh
+
+COPY perceprogress.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/perceprogress.sh
+
+COPY recup_all_depends.sh ${PHP_FOLDER_INIT}
+RUN chmod +x ${PHP_FOLDER_INIT}/recup_all_depends.sh
+
+COPY recup_one_depend.sh ${PHP_FOLDER_INIT}
+RUN chmod +x ${PHP_FOLDER_INIT}/recup_one_depend.sh
 
 RUN composer selfupdate && \
     composer require "${PHP_UNIT_VERSION}" --prefer-source --no-interaction && \
