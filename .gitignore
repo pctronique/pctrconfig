@@ -18,7 +18,6 @@
 /project/www/src/config/config_sgbd.php
 /project/www/src/config/filedotenv.php
 /project/www/src/config/.env
-/project/www/src/class/pctrouting/
 /project/www/errors.log
 /project/www/.htaccess
 /project/www/upload
@@ -36,3 +35,6 @@
 /composer.lock
 /project/www/vendor/
 /project/www/composer.lock
+/project/www/src/class/pctrplatform
+/project/www/src/class/pctrpath
+/project/www/src/class/pctrouting

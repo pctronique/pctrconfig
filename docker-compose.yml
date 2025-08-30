@@ -31,7 +31,6 @@ services:
                 - VALUE_COMPOSER_VERSION=${VALUE_COMPOSER_VERSION}
                 - VALUE_MHSEND_VERSION=${VALUE_MHSENDMAIL_VERSION}
                 - VALUE_PHP_UNIT_VERSION=${VALUE_PHP_UNIT_VERSION}
-                - VALUE_PCTR_ROUT_VERSION=${VALUE_PCTR_ROUT_VERSION}
         volumes:
             - ./project/www/:/usr/local/apache2/www
             - ./project/unit/:/usr/local/apache2/unit:rw
