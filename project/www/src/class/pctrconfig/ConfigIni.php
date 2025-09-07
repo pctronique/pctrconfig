@@ -3,11 +3,11 @@
 if (!class_exists('ConfigIni')) {
 
     /* en cas d'erreur sur la classe */
-    include_once __DIR__ . '/../pctrpath/Path.php';
+    require_once __DIR__ . '/../pctrpath/Path.php';
 
     /* recuperer l'emplacement du fichier de configuration */
     if (!defined('RACINE_CONFIG_INI') && file_exists(__DIR__ . '/../../config/config.php')) {
-        include_once __DIR__ . '/../../config/config.php';
+        require_once __DIR__ . '/../../config/config.php';
     } else if (!defined('RACINE_CONFIG_INI') && !file_exists(__DIR__ . '/../../config/config.php')) {
         define("RACINE_CONFIG_INI", __DIR__."/../../config/");
     }
